@@ -71,7 +71,7 @@ namespace _3TCRAPP
             sw.Write(xl);
             
             string curDir = Directory.GetCurrentDirectory();
-            this.ActeView.Url = new Uri(String.Format($"file:///{curDir}/ok.html"));
+            ActeView.Url = new Uri(string.Format($"file:///{curDir}/ok.html"));
             curDir = Regex.Replace(curDir, " ", "%20");
             try
             {
@@ -108,7 +108,7 @@ namespace _3TCRAPP
         }
         private void metroButton2_Click(object sender, EventArgs e)
         {
-           Acte.list_act.Clear();
+            Acte.list_act.Clear();
             errorProvider1.Clear();
             if(checkall()==true)
             {

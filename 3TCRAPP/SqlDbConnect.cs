@@ -33,12 +33,19 @@ namespace _3TCRAPP
         public bool connectionstateftw()
         {
             _con = new MySqlConnection(@"Data Source=localhost ; DataBase=acte; User ID=root; Password='' ");
-            _con.Open();
-            if (_con.State == ConnectionState.Open)
+            try
             {
+                _con.Open();
+                if (_con.State == ConnectionState.Open)
+                {
 
-                return true;
+                    return true;
 
+                }
+            }
+            catch(Exception)
+            {
+                    return false;
             }
             return false;
         }

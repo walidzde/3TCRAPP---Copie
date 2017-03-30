@@ -63,26 +63,6 @@ namespace _3TCRAPP.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _563px_COA_Kingdom_of_Morocco_svg_ {
-            get {
-                object obj = ResourceManager.GetObject("563px-COA_Kingdom_of_Morocco.svg_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Coat_of_arms_of_Morocco_svg {
-            get {
-                object obj = ResourceManager.GetObject("Coat_of_arms_of_Morocco.svg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Coat_of_arms_of_Morocco1 {
             get {
                 object obj = ResourceManager.GetObject("Coat_of_arms_of_Morocco1", resourceCulture);
@@ -106,6 +86,26 @@ namespace _3TCRAPP.Properties {
         internal static System.Drawing.Bitmap large_1238089173 {
             get {
                 object obj = ResourceManager.GetObject("large_1238089173", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ok {
+            get {
+                object obj = ResourceManager.GetObject("ok", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap okii {
+            get {
+                object obj = ResourceManager.GetObject("okii", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

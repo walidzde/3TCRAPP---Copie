@@ -14,6 +14,7 @@ namespace _3TCRAPP
 {
     public partial class Wlcm_scrn : MetroForm
     {
+        SqlDbConnect ocon=new SqlDbConnect();
         public Wlcm_scrn()
         {
             InitializeComponent();
@@ -22,6 +23,16 @@ namespace _3TCRAPP
         private void Wlcm_scrn_Load(object sender, EventArgs e)
         {
 
+            if (ocon.connectionstateftw() == true)
+            {
+                metroLabel1.Text = $"{ DateTime.Now.Date.ToShortDateString()} Online";
+            }
+            else
+            {
+                metroLabel1.Text = $"{DateTime.Now.Date.ToShortDateString()} Offline please start the MySql server!";
+            }
+            
+            
         }
 
         private void metroTile4_Click(object sender, EventArgs e)
@@ -62,6 +73,23 @@ namespace _3TCRAPP
         {
             ModifyAct MC = new ModifyAct();
             MC.Show();
+        }
+
+        private void metroTile2_Click_1(object sender, EventArgs e)
+        {
+            Copie_Integral_Form cif = new Copie_Integral_Form();
+            cif.Show();
+        }
+
+        private void metroTile4_Click_1(object sender, EventArgs e)
+        {
+            printformCI pci = new printformCI();
+            pci.Show();
+        }
+
+        private void metroTile7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

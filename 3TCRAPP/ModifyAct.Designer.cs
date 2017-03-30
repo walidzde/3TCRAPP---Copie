@@ -480,6 +480,7 @@
             this.Controls.Add(this.Tnum);
             this.Name = "ModifyAct";
             this.Text = "التعديل على عقد";
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.Load += new System.EventHandler(this.ModifyAct_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);

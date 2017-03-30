@@ -126,7 +126,7 @@ namespace _3TCRAPP
             HamAr = hamAr;
         }
 
-        public List<CopieIntegral> list_ci = new List<CopieIntegral>();
+        public static List<CopieIntegral> list_ci = new List<CopieIntegral>();
 
     }
 }

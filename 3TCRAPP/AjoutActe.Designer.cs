@@ -529,6 +529,7 @@
             this.MinimumSize = new System.Drawing.Size(975, 425);
             this.Name = "AjoutActe";
             this.Text = "إضافة عقد";
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
